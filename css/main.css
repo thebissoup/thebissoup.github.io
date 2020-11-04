@@ -1,0 +1,114 @@
+body {
+    background-color: #d8baa8;
+    position: relative;
+    top: 41px;
+}
+header h1{
+    top
+    display: block;
+    position: static;
+    color: white;
+}
+section div {
+    /* Positioning Here */
+}
+
+a{
+    font-size: 24px;
+    font-color: #E0573A;
+}
+
+.topnav{
+    display: block;
+    width: 100%;
+    background-color: #bd794d;
+
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+    z-index: 5
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #e6d5c7;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #a25430;
+  color: white;
+}
+
+.flexbox-container {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+
+.flexbox-item{
+    min-height: 200px;
+    width: 1000px;
+    margin: 10px;
+    border: 3px solid #654321;
+    background-color: #B2906F;
+}
+
+.flexbox-item-1 {
+    
+}
+
+.flexbox-item-2 {
+    
+    
+}
+
+.flexbox-item-3 {
+    min-width: 200px;
+}
+
+
+.button {
+    display: inline-block;
+    padding: 1em;
+    background-color: #79BD9A;
+    text-decoration: none;
+    color: white;
+    z-index: 0;
+}
+
+.hvr-skew-backward {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transform-origin: 0 100%;
+  transform-origin: 0 100%;
+}
+
+
+.footer {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  background-color: #bd794d;
+  color: white;
+  text-align: center;
